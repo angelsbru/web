@@ -26,30 +26,30 @@ body {
 #sign {
     font-weight: bold;
     font-family: "Dancing Script", cursive;
-    font-size: 1vw; /* Responsive font size */
+    font-size: 1vw;
 }
 
 /* Media Queries for additional adjustments */
 @media (max-width: 600px) {
     .timer {
-        font-size: 7vw; /* Increase size for smaller screens */
+        font-size: 7vw; 
     }
     .message {
-        font-size: 7vw; /* Increase size for smaller screens */
+        font-size: 7vw;
     }
     #sign {
-        font-size: 8vw; /* Increase size for smaller screens */
+        font-size: 8vw; 
     }
 }
 
 @media (min-width: 601px) and (max-width: 900px) {
     .timer {
-        font-size: 6vw; /* Adjust for medium screens */
+        font-size: 6vw; 
     }
     .message {
-        font-size: 6vw; /* Adjust for medium screens */
+        font-size: 6vw;
     }
     #sign {
-        font-size: 7vw; /* Adjust for medium screens */
+        font-size: 7vw; 
     }
 }
